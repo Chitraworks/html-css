@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin-Sans", sans-serif;
+}
+body {
+  color: #fff;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+span {
+  color: red;
+}
+.logo {
+  padding-right: 100px;
+  position: relative;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.logo:hover {
+  color: red;
+}
+.navbar a {
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 70px;
+  transition: 0.3s;
+  /* position: sticky; */
+}
+.navbar a:hover {
+  color: #ff0000;
+}
+span {
+  color: #ff0000;
+}
+p {
+  font-size: 17.7px;
+}
+.sec {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* background: url("purple.jpg") no-repeat; */
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 70px 10%;
+}
+
+.input form {
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+.input form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #ff0000;
+  outline: none;
+  border-radius: 30px;
+}
+.input form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #ff0000;
+  color: #fff;
+  box-shadow: 0px 0px 5px #000;
+  top: 6px;
+  right: 6px;
+}
+
+.img img {
+  height: 500px;
+  width: 350px;
+  left: 72%;
+  bottom: 100px;
+  position: absolute;
+  border: 5px solid gray;
+  /* box-shadow: 10px 10px 3px gray; */
+}
+.icons i {
+  color: #fff;
+  font-size: 35px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.icons i:hover {
+  color: #ff0000;
+  font-size: 40px;
+  filter: drop-shadow(3px 3px 2px #fff);
+}
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+.about img {
+  height: 500px;
+  width: 380px;
+  border: 5px solid gray;
+  box-shadow: 10px 10px 8px black;
+}
+.text {
+  width: 500px;
+  align-items: center;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text h2 {
+  color: #fff;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.text h5 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.text p {
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+button {
+  background-color: #ff0000;
+  color: #fff;
+  width: 110px;
+  height: 50px;
+  font-size: 16px;
+  /* border: 2px solid transparent; */
+  border-radius: 30px;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  cursor: pointer;
+}
+.service {
+  background: #000;
+  width: 100%;
+  padding: 100px 0px;
+}
+.title h2 {
+  color: #fff;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0;
+  color: #ff0000;
+}
+h5 {
+  color: #fff;
+  font-size: 23px;
+  margin: 15px;
+}
+.content p {
+  color: #fcfc;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  box-shadow: #191919;
+}
+.card .btn {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 13px 30px;
+  text-decoration: none;
+  transition: 0.4s;
+  font-size: 16px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+}
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  cursor: pointer;
+}
